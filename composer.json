@@ -10,6 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"hauntd\\basketjs": ""}
+    },
     "require": {
       "bower-asset/basket.js": "v0.5"
     }
