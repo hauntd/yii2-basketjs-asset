@@ -1,6 +1,6 @@
 yii2-basketjs-asset
 ==========================
-Basket.js plugin asset for Yii 2.0 applications.
+[Basket.js](https://addyosmani.github.io/basket.js/) plugin asset for Yii 2.0 applications.
 
 Installation
 ------------

@@ -10,7 +10,4 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-      "bower-asset"
-    }
 }
