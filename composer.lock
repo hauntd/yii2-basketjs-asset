@@ -1,0 +1,87 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e3cba372228878724f9070d9d4cc5c6c",
+    "packages": [
+        {
+            "name": "bower-asset/basket.js",
+            "version": "v0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/addyosmani/basket.js.git",
+                "reference": "0ab192b031e05772a0d3dccdcfe2ddb1315925e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/addyosmani/basket.js/zipball/0ab192b031e05772a0d3dccdcfe2ddb1315925e6",
+                "reference": "0ab192b031e05772a0d3dccdcfe2ddb1315925e6",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/rsvp": "~3.0.8"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "dist/basket.js",
+                "bower-asset-ignore": [
+                    "_*",
+                    ".*",
+                    "asset",
+                    "dist/basket.full.min.js",
+                    "dist/basket.min.js",
+                    "lib",
+                    "media",
+                    "test",
+                    "Gruntfile.js",
+                    "index.md",
+                    "package.json"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/rsvp",
+            "version": "3.0.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/rsvp.js.git",
+                "reference": "347f289d80e42a3ea97261c10cc1ea8a4070a3c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/rsvp.js/zipball/347f289d80e42a3ea97261c10cc1ea8a4070a3c9",
+                "reference": "347f289d80e42a3ea97261c10cc1ea8a4070a3c9",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "rsvp.js",
+                "bower-asset-ignore": [
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "vendor",
+                    "tasks"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A lightweight library that provides tools for organizing asynchronous code",
+            "keywords": [
+                "promise"
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

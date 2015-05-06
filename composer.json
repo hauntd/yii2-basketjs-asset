@@ -10,4 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "require": {
+      "bower-asset/basket.js": "v0.5"
+    }
 }
