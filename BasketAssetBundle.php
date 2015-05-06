@@ -59,6 +59,6 @@ class BasketAssetBundle extends AssetBundle
             $jsFiles[] = Json::encode(['url' => $manager->getAssetUrl($this, $js)]);
         }
 
-        $view->registerJs(sprintf('basket.require(%s);', implode("\r\n", $jsFiles)), View::POS_END);
+        $view->registerJs(sprintf('basket.require(%s);', implode(",\r\n", $jsFiles)), View::POS_END);
     }
 }
