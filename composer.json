@@ -1,0 +1,16 @@
+{
+    "name": "hauntd/yii2-basketjs-asset",
+    "description": "basket.js asset for Yii 2.0 apps",
+    "type": "yii2-extension",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Alexander Kononenko",
+            "email": "alex.kononenko90@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "bower-asset"
+    }
+}
