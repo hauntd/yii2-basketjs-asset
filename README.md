@@ -51,4 +51,4 @@ class AppAsset extends \hauntd\basketjs\Asset
 License
 -------
 
-**yii2-basketjs-asset** is released under the MIT License. See the bundled `LICENSE.md` for details.
+**yii2-basketjs-asset** is released under the MIT License. See the bundled `LICENSE` for details.
