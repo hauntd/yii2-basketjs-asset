@@ -27,6 +27,7 @@ Usage
 To use this plugin extend your asset class from `hauntd\basketjs\Asset`.
 
 ```php
+<?php
 
 // ./assets/AppAsset.php
 
@@ -45,7 +46,6 @@ class AppAsset extends \hauntd\basketjs\Asset
         'yii\web\YiiAsset',
     ];
 }
-?>
 ```
 
 License
